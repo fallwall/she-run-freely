@@ -1,0 +1,32 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* nav */
+.nav {
+  overflow:hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-link, .nav-home {
+  padding: 1em;
+}
+
+.nav-link a:hover {
+  color:lightpink;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-link {
+    display: none;
+  }
+}
+
+
