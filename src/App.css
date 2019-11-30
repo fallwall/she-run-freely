@@ -32,10 +32,19 @@ a {
   color:lightpink;
 }
 
+.nav-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .nav-link {
     display: none;
   }
+  .nav-mobile {
+    display: block;
+  }
 }
+
+
 
 

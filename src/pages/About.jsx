@@ -5,6 +5,8 @@ const About=()=> {
   return (
     <div>
       {data.bio}
+      {data.frontStack}
+      {data.backStack}
     </div>
   )
 }
