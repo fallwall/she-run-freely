@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <div className="nav">
       <div className="nav-home">
-          Tibby Xu
+        <Link to="/">Tibby Xu</Link>
       </div>
       <div className="nav-link">
         <Link to="/about"> About </Link>

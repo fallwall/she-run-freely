@@ -1,9 +1,12 @@
 import React from 'react';
+import data from '../data/about_data.json';
 
-export default function About() {
+const About=()=> {
   return (
     <div>
-      
+      {data.bio}
     </div>
   )
 }
+
+export default About;

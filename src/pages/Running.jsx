@@ -13,12 +13,13 @@ const Running = () => {
       </div>
       <div className="countdown-pb-wrapper">
         <div className="countdown-pb">
+          <p>Marathon</p>
           <CountDown end={3} suffix={":"} delay={2} />
           <CountDown end={15} suffix={":"} delay={2} />
           <CountDown end={37} suffix={""} delay={2} />
         </div>
         <div className="countdown-pb">
-         
+          <p>Mile</p>
           <CountDown end={5} suffix={":"} delay={4} />
           <CountDown end={30} suffix={""} delay={4} />
         </div>
