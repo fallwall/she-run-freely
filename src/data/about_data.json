@@ -1,18 +1,19 @@
 {
   "bio": [
-    "Tibby is a New York City based full-stack developer who builds intuitive applications and websites. She thrives in a culture where ideas can be sparked by a person but cannot be accomplished without a team. When not coding from a coffe shop or cider bar, she is probably running or chasing that bi-coastal dream."
+    "Tibby is a New York City based full-stack developer who builds intuitive applications and websites. She thrives in a culture where ideas can be sparked by a person but cannot be accomplished without a team. When not coding from a coffe shop or cider bar, she is most likely running or chasing that bi-coastal dream."
   ],
   "frontStack": [
-    "JavaScript/TypeScript",
-    "ReactJS",
-    "AngularJS",
-    "HTML",
-    "CSS"
+    ["JavaScript"],
+    ["TypeScript"],
+    ["ReactJS"],
+    ["AngularJS"],
+    ["HTML"],
+    ["CSS"]
   ],
   "backStack": [
-    "Ruby",
-    "Python",
-    "Go",
-    "Java"
+    ["Ruby"],
+    ["Python"],
+    ["Go"],
+    ["Java"]
   ]
 }
