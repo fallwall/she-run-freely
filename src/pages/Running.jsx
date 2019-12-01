@@ -5,7 +5,7 @@ import './running.css';
 const Running = () => {
   return (
     <>
-      <div className="running-stats">
+      <div className="page-frame">
         <div className="countdown-count-wrapper">
           <CountDown end={46} suffix={" Marathons"} delay={2} />
           <CountDown end={46 * 26.2} suffix={" Miles"} delay={2} />

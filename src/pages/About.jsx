@@ -4,7 +4,7 @@ import './about.css';
 
 const About = () => {
   return (
-    <div className="bio">
+    <div className="page-frame">
       <div className="bio-wrapper">
         <p>{data.bio}</p>
       </div>

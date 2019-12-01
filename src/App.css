@@ -7,6 +7,29 @@ a {
   text-decoration: none;
 }
 
+/* each page's frame */
+.page-frame {
+ border: 1px solid black;
+ padding: 2em;
+ margin: 0 auto;
+ width: 80%;
+ min-width: 300px;
+}
+
+.page-frame p {
+  margin: 1em auto;
+  text-indent: 10%;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  line-height: 2em;
+  width:80%;
+  max-width: 40em;
+}
+
 /* nav */
 .nav {
   overflow:hidden;
@@ -25,7 +48,13 @@ a {
 }
 
 .nav-link a {
+  font-weight: 550;
+  font-size: 1.2em;
   margin: 0 0.5em;
+  -webkit-transition: 0.7s ease-in-out;
+  -moz-transition: 0.7s ease-in-out;
+  -o-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
 }
 
 .nav-link a:hover {
@@ -44,6 +73,8 @@ a {
     display: block;
   }
 }
+
+
 
 
 
