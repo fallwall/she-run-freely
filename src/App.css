@@ -100,7 +100,7 @@ a:hover {
 }
 
 .mini-portfolio-each img:hover {
-  filter: blur(2px);
+  filter: blur(1.5px);
 }
 
 .mini-portfolio-text-hidden {
@@ -131,7 +131,7 @@ a:hover {
   margin: 0 2em;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1260px) {
   .mini-portfolio-grid {
     display: grid;
     grid-template-columns: repeat(3, 33%);
@@ -141,7 +141,7 @@ a:hover {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .nav-link {
     display: none;
   }
