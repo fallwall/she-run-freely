@@ -86,6 +86,45 @@ a:hover {
   }
 }
 
+/* grid */
+.mini-portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 5px;
+  justify-items: center;
+  align-items: center;
+  /* align-items: stretch; */
+}
+
+.mini-portfolio-each {
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+
+.mini-portfolio-each img {
+  max-width:100%;
+}
+
+.mini-portfolio-each img:hover {
+  filter: blur(2px);
+}
+
+.mini-portfolio-text-hidden {
+  display:none;
+}
+
+
+.mini-portfolio-text {
+  color:white;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 /* contact */
 .contact-social {
