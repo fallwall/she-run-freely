@@ -3,18 +3,43 @@
     "Tibby is a New York City based full-stack developer who builds intuitive applications and websites. She thrives in an environment where ideas can be sparked by a person but cannot be accomplished without a team. She follows her heart through running and travel in an effort to leave the world a little more colorful than we found it."
   ],
   "frontStack": [
-    ["JavaScript"],
-    ["TypeScript"],
-    ["ReactJS"],
-    ["AngularJS"],
-    ["HTML"],
-    ["CSS"]
+    [
+      "JavaScript"
+    ],
+    [
+      "TypeScript"
+    ],
+    [
+      "ReactJS"
+    ],
+    [
+      "AngularJS"
+    ],
+    [
+      "HTML"
+    ],
+    [
+      "CSS"
+    ]
   ],
   "backStack": [
-    ["Ruby"],
-    ["Python"],
-    ["Go"],
-    ["Java"],
-    ["ExpressJS"]
+    [
+      "Ruby"
+    ],
+    [
+      "Python"
+    ],
+    [
+      "Go"
+    ],
+    [
+      "Java"
+    ],
+    [
+      "ExpressJS"
+    ],
+    [
+      "SQL"
+    ]
   ]
 }
