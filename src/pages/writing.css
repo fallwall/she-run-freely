@@ -1,0 +1,15 @@
+.writing-entry {
+  height: 35vh;
+  padding: 5%;
+}
+
+.writing-entry-title {
+  -webkit-transition: 0.7s ease-in-out;
+  -moz-transition: 0.7s ease-in-out;
+  -o-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+}
+
+.writing-entry-title:hover {
+  color:lightpink;
+}

@@ -1,16 +1,28 @@
 {
   "entries": [
     {
-      "title": "Paul Auster and Eggs",
+      "id": 1,
+      "title": "Egg Drop Soup",
+      "tagline": "The most memorable literature moment to me was when Paul Auster's Columbia character dropped an egg.",
       "content": "I'm obsessed with a scene from Paul Aster's book. He was counting down to the end. "
     },
     {
-      "title": "Haruki Murakami and the Well",
+      "id": 2,
+      "title": "Minimal Tragedy I",
+      "tagline": "My neighbor said hi. Now it's time to move again.",
       "content": "What I did in junior high sceince class was hiding behind my friends and reading books after books in hope that each book will make me smarter somehow."
     },
     {
-      "title": "This is a wordpress holder",
-      "content": "Totally can't write anything poetic on the spot."
+      "id": 3,
+      "title": "Minimal Tragedy IV",
+      "tagline": "A man with his secrets. And you are truly what you eat.",
+      "content": "He eats light bulbs and light bulbs only. To be clear, he does not eat everything that's made of glass; he eats only the light bulbs. It’s true that the light bulbs are made of glass; it’s also true that not all the glass products are light bulbs. It’s precisely the same with someone who’s really into porkchop but dislikes other pork products. What matters is the combination of material and structure. What he likes the most is the 60W mushroom-shaped ones - they are bite-size and delicious. As for the aluminum parts, he does not consume them. Nor does he throw them away. He just hides them under the bed. He recycles them every other month. The aluminum parts are indeed recyclable, but they are so tiny that people rarely take them to recycle bin. He constantly receives curious stares when he brings in an enormous pile of aluminum parts of light bulbs. Fortunately, he lives in this city where nobody has the time to pass on personal judgement. \n He usually takes light bulbs home to eat. Only on one Black Friday, the line was incredibly long - he, famished, ate a light bulb behind mirror section - caught red handed by a floor manager. Till this day that Bed Bath and Beyond manager is still the only living thing on earth ever witnessed his secret. He slipped the manager some cash and asked for discretion. He’s never sure if anybody else shares his passion for light bulbs. Once upon a time many moons ago, he did see a girl in hospital being treated for eating light bulbs. Fragments of light bulbs and blood are coming out of her mouth. However it was nothing more than an unsuccessful suicide attempt. Unlike her, he loves light bulbs and never gets hurt chewing or digesting them, from which him concluded that his body is made for this. The tin lining parts never incur digestive issue - in fact, they are the essence of a bulb – anybody who eats bulbs would get this. Somehow his Bed Bath & Beyond friend can’t really keep a secret. The guy told his wife, his wife her friends, her friends their neighbors and friends About people who eats bulbs. To our surprise, they all come to the conclusion that he’s insane. All of them hold the same belief that humans share the identical biological makeup, including dietary habits. It’s societally acceptable for people to eat meat or vegetables but the need to consume light bulbs automatically signals a psychiatry assessment. But he knows he’s extremely healthy; he’s just a little special. In the first few years, he never shared his dietary inclination with anybody except that Bed, Bath & Beyond floor manager. So, it was easy to deal with: he just denies it all. He keeps sneaking away at lunch. To eat alone in janitor closet is a minor inconvenience that he can afford. His coworkers thought he’s just another loner. \n He has a secret… I mean a different one. He’s tried to charge himself – of course not regular 110V voltage – with several batterie, about 4-5V or so. Guess what? He is illuminated!!! Light penetrates his skin – he’s basically a human lamp. I guess it’s true that you are what you eat. He attempted to increase voltage, but the brightness didn’t change much. He figures it’s because he hasn’t eaten enough. The winter is coming. He's decided to get more light bulbs to be brighter."
+    },
+    {
+      "id": 4,
+      "title": "Patient Sufferance",
+      "tagline": "Here is American. None of us are supposed to be here.",
+      "content": "That's all I pictured for her. and lots of alcohol."
     }
   ]
 }

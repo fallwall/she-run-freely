@@ -1,7 +1,13 @@
 .running-stats {
-  
+
 }
 
-.countdown-pb-wrapperr {
-  display: inline;
+.countdown-pb-wrapper, .countdown-count-wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+}
+
+.countdown-pb, .countdown-count {
+  width: 50%;
 }

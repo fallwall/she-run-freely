@@ -6,6 +6,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Running from './pages/Running';
 import Writing from './pages/Writing';
+import WritingOne from './pages/WritingOne';
 import Contact from './pages/Contact';
 import './App.css';
 
@@ -20,6 +21,7 @@ export default class App extends Component {
         <Route exact path="/portfolio" render={()=><Portfolio />}/>
         <Route exact path="/runs" render={()=><Running />}/>
         <Route exact path="/writes" render={()=><Writing />}/>
+        <Route exact path="/writesthis/:id" render={(props) => <WritingOne id={props.match.params.id}/>}/>
         <Route exact path="/contact" render={()=><Contact />}/>
       </div>
     )
