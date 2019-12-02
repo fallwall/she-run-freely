@@ -18,7 +18,7 @@ export default class App extends Component {
         <p>portfolio V2</p>
         <Route exact path="/" render={()=><Home />}/>
         <Route exact path="/about" render={()=><About />}/>
-        <Route exact path="/portfolio" render={()=><Portfolio />}/>
+        <Route exact path="/codes" render={()=><Portfolio />}/>
         <Route exact path="/runs" render={()=><Running />}/>
         <Route exact path="/writes" render={()=><Writing />}/>
         <Route exact path="/writesthis/:id" render={(props) => <WritingOne id={props.match.params.id}/>}/>

@@ -1,0 +1,96 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "title": "Antipode Visualizer",
+      "year": "2019",
+      "medium": [
+        "JavaScript"
+      ],
+      "tagline": "Tool to checkout the opposite point on earth with given location. Powered by MapBox API.",
+      "content": "I'm obsessed with a scene from Paul Aster's book. He was counting down to the end. "
+    },
+    {
+      "id": 2,
+      "title": "Panda Dining Club",
+      "year": "2019",
+      "medium": [
+        "ReactNative",
+        "MongoDB"
+      ],
+      "tagline": "Aiding your lunch decisin making with users' location, category and price range input. Powered by YELP API.",
+      "content": "What I did in junior high sceince class was hiding behind my friends and reading books after books in hope that each book will make me smarter somehow."
+    },
+    {
+      "id": 3,
+      "title": "Indie Jukebox",
+      "year": "2019",
+      "medium": [
+        "Java"
+      ],
+      "tagline": "Tribute to Jukebox, popularly portraited from the movies' diner-set scenes.",
+      "content": "The fascination with diners has a long history. Usually viewed as an optimistic central tenet of Americana, diner nostalgia is rooted in the modern mythologizing of the 1950s, a time when the American middle class was great and life was wonderful. For me, diners are indicative of the loneliness of traveling, especially in America."
+    },
+    {
+      "id": 4,
+      "title": "Video Killed the Radio Star",
+      "year": "2019",
+      "medium": [
+        "ReactJS",
+        "ExpressJS"
+      ],
+      "tagline": "My neighbor said hi. Now it's time to move again.",
+      "content": "What I did in junior high sceince class was hiding behind my friends and reading books after books in hope that each book will make me smarter somehow."
+    },
+    {
+      "id": 5,
+      "title": "More Coffee Please",
+      "year": "2019",
+      "medium": [
+        "ReactJS"
+      ],
+      "tagline": "Caffine intake counter for my compulsive obsessive procrastinators.",
+      "content": "none"
+    },
+    {
+      "id": 6,
+      "title": "Shapes",
+      "year": "2019",
+      "medium": [
+        "Drawing"
+      ],
+      "tagline": "Frank Gehry's buildings that I have viisted.",
+      "content": "TBC."
+    },
+    {
+      "id": 7,
+      "title": "Lights & Music",
+      "year": "2018",
+      "medium": [
+        "Drawing"
+      ],
+      "tagline": "Album covers that has inspired me.",
+      "content": "TBC."
+    },
+    {
+      "id": 8,
+      "title": "On the Regular",
+      "year": "2018",
+      "medium": [
+        "uncategorized"
+      ],
+      "tagline": "For morning coffee drip at IDEO NY.",
+      "content": "TBC."
+    },
+    {
+      "id": 10,
+      "title": "Teardrop, Waterfall",
+      "year": "2016 - Present",
+      "medium": [
+        "photography"
+      ],
+      "tagline": "The waterfall project from Canada, Australia, Argentina. #EveryTearDropEveryWaterfall",
+      "content": "The waterfall project from Canada, Australia, Argentina."
+    }
+  ]
+}
