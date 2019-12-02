@@ -6,6 +6,7 @@ const About = () => {
   return (
     <div className="page-frame">
       <div className="bio-wrapper">
+        <img src={data.img} alt="selfie" />
         <p>{data.bio}</p>
       </div>
       <div className="tech-stack-wrapper">

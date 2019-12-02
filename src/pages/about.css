@@ -1,3 +1,9 @@
+.bio-wrapper img {
+  max-width: 80%;
+  margin: 10% auto 10% 10%;
+  filter: grayscale(100%) brightness(120%);
+}
+
 .tech-stack-wrapper {
   min-height: 8em;
   height: 30vh;
