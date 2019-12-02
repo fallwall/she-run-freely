@@ -1,0 +1,43 @@
+.code-entry {
+  height: 35vh;
+  padding: 5%;
+}
+
+.code-entry-title {
+  -webkit-transition: 0.7s ease-in-out;
+  -moz-transition: 0.7s ease-in-out;
+  -o-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+}
+
+.code-entry-title:hover {
+  color:lightpink;
+}
+
+.code-entry-year, .code-entry-medium {
+  text-align: center;
+  color:lightpink;
+}
+
+.medium-stack {
+  display:inline-block;
+  margin: 10px;
+  width: 120px;
+  min-width: 100px;
+  height: 2em;
+  border: 2px solid lightpink;
+  line-height: 2em;
+  text-align: center;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.medium-stack:hover {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}

@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 export default function CodeEntry({children}) {
   return (
-    <div className="writing-entry">
+    <div className="code-entry">
       <Link to={`/codesthis/${parseInt(children.id)}`}><h1 className="code-entry-title">{children.title}</h1></Link>
-      <p>({children.year})</p>
-      <p>{children.medium.map(i => <span>{i}</span>)}</p>
+      <div className="code-entry-year">({children.year})</div>
+      <div className="code-entry-medium">{children.medium.map(i => <div className="medium-stack">{i}</div>)}</div>
       <p className="code-entry-tagline">{children.tagline}</p>
     </div>
   )

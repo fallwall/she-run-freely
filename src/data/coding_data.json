@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "title": "Panda Dining Club",
+      "title": "Lunch Decision Maker",
       "year": "2019",
       "medium": [
         "ReactNative",
@@ -44,6 +44,17 @@
     },
     {
       "id": 5,
+      "title": "Three Cases History",
+      "year": "2019",
+      "medium": [
+        "ReactJS",
+        "Ruby On Rails"
+      ],
+      "tagline": "My Ukranian friend gave me a book.",
+      "content": "none"
+    },
+    {
+      "id": 6,
       "title": "More Coffee Please",
       "year": "2019",
       "medium": [
@@ -53,7 +64,7 @@
       "content": "none"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Shapes",
       "year": "2019",
       "medium": [
@@ -63,7 +74,7 @@
       "content": "TBC."
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Lights & Music",
       "year": "2018",
       "medium": [
@@ -73,7 +84,7 @@
       "content": "TBC."
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "On the Regular",
       "year": "2018",
       "medium": [
