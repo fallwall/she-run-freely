@@ -3,7 +3,7 @@ import React from 'react';
 const ContactSocial = () => {
   return (
     <div classNameName="contact-social">
-      <div className="ui horizontal divided list">
+      <div className="ui horizontal list">
         
         <div className="item">
           <i className="mail icon huge"></i>
