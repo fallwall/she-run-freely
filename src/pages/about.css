@@ -1,7 +1,24 @@
+.tech-stack-wrapper {
+  min-height: 8em;
+  height: 30vh;
+  margin: 2em auto;
+  padding: 2em 0;
+  width: 80vw;
+}
+
+.tech-stack-front-wrapper, .tech-stack-back-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .tech-stack {
   display:inline-block;
-  margin: 1em 1em;
-  width: 100px;
+  margin: 10px;
+  width: 120px;
+  min-width: 100px;
   height: 2em;
   border: 2px solid lightpink;
   line-height: 2em;
