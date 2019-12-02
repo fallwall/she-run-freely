@@ -87,8 +87,8 @@ a:hover {
 /* grid */
 .mini-portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(4, auto);
   grid-gap: 5px;
   justify-items: center;
   align-items: center;
@@ -140,14 +140,16 @@ a:hover {
 @media screen and (max-width: 1260px) {
   .mini-portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(3, 33%);
-    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(6, auto);
     grid-gap: 5px;
   }
 }
 
-
 @media screen and (max-width: 640px) {
+  .nav {
+    height: 6em;
+  }
   .nav-link {
     display: none;
   }
@@ -156,8 +158,11 @@ a:hover {
   }
   .mini-portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(6, auto);
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(12, auto);
     grid-gap: 5px;
+  }
+  .tech-stack-wrapper {
+    height: 100%;
   }
 }
