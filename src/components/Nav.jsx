@@ -14,7 +14,6 @@ export default function Nav() {
         <Link to="/codes"> Portfolio </Link>
         <Link to="/writes"> Writing </Link>
         <Link to="/runs"> Running </Link>
-        <Link to="/contact"> Contact </Link>
       </div>
       </div>
       <Burger />

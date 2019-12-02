@@ -55,7 +55,6 @@ export default class Burger extends Component {
           <Link to="/codes"> Portfolio </Link>
           <Link to="/writes"> Writing </Link>
           <Link to="/runs"> Running </Link>
-          <Link to="/contact"> Contact </Link>
         </Menu>
       </div>
     )
