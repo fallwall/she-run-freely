@@ -79,6 +79,17 @@ a {
 }
 
 
+/* contact */
+.contact-social {
+  text-align: center;
+  width: 100%;
+  min-width: 400px;
+}
+
+.item {
+  margin: 0 2em;
+}
+
 
 
 

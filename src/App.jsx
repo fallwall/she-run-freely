@@ -8,7 +8,7 @@ import PortfolioOne from './pages/PortfolioOne';
 import Running from './pages/Running';
 import Writing from './pages/Writing';
 import WritingOne from './pages/WritingOne';
-import Contact from './pages/Contact';
+import ContactSocial from './components/ContactSocial';
 import './App.css';
 
 export default class App extends Component {
@@ -24,7 +24,7 @@ export default class App extends Component {
         <Route exact path="/runs" render={()=><Running />}/>
         <Route exact path="/writes" render={()=><Writing />}/>
         <Route exact path="/writesthis/:id" render={(props) => <WritingOne id={props.match.params.id}/>}/>
-        <Route exact path="/contact" render={()=><Contact />}/>
+        <ContactSocial />
       </div>
     )
   }
