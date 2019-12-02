@@ -77,14 +77,6 @@ a:hover {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .nav-link {
-    display: none;
-  }
-  .nav-mobile {
-    display: block;
-  }
-}
 
 /* grid */
 .mini-portfolio-grid {
@@ -139,7 +131,27 @@ a:hover {
   margin: 0 2em;
 }
 
+@media screen and (max-width: 1200px) {
+  .mini-portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 5px;
+  }
+}
 
 
-
-
+@media screen and (max-width: 600px) {
+  .nav-link {
+    display: none;
+  }
+  .nav-mobile {
+    display: block;
+  }
+  .mini-portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(6, auto);
+    grid-gap: 5px;
+  }
+}
