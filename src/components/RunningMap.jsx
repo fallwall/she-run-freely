@@ -250,15 +250,17 @@ class RunningMap extends Component {
             <USAMap
               customize={this.statesCustomConfigFull()}
               onClick={this.mapHandler}
+              width={`100%`}
             />
           </div>)
         }
         {!this.state.isFull &&
           (<div className="running-map-area">
-            <div><h1>Full Marathon States</h1></div>
+            <div><h1>Half Marathon States</h1></div>
             <USAMap
               customize={this.statesCustomConfigHalf()}
               onClick={this.mapHandler}
+              width={`100%`}
             />
           </div>)
         }

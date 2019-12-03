@@ -7,8 +7,8 @@ const Running = () => {
   return (
     <>
       <div className="page-frame">
-        <RunningStats />
         <RunningMap />
+        <RunningStats />
       </div>
     </>
   )
