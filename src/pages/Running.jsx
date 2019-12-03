@@ -1,5 +1,6 @@
 import React from 'react';
 import RunningStats from '../components/RunningStats';
+import RunningMap from '../components/RunningMap';
 import './running.css';
 
 const Running = () => {
@@ -7,6 +8,7 @@ const Running = () => {
     <>
       <div className="page-frame">
         <RunningStats />
+        <RunningMap />
       </div>
     </>
   )

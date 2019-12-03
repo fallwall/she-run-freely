@@ -32,3 +32,17 @@
   justify-content: center;
   margin: 1em;
 }
+
+/* map */
+.running-map {
+  width: 100%;
+ 
+}
+
+path {
+  pointer-events: all;
+}
+path:hover {
+  opacity: 0.50;
+  cursor: pointer;
+}
