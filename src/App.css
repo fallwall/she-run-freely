@@ -125,8 +125,8 @@ a:hover {
 
 /* individual portfolio page */
 .code-entry-imgs img{
-max-width: 100%;
-margin: 1em auto;
+max-width: 70%;
+margin: 1em 15%;
 }
 
 /* contact */
