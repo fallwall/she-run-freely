@@ -39,7 +39,8 @@ const styles = {
     padding: '0.8em'
   },
   bmItem: {
-    display: 'inline-block'
+    display: 'block',
+    margin: '1.8em 0'
   },
   bmOverlay: {
     background: 'white'
@@ -50,7 +51,7 @@ export default class Burger extends Component {
   render() {
     return (
       <div className="nav-mobile">
-        <Menu isOpen={false} width={180} styles={styles}>
+        <Menu isOpen={false} width={`100%`} styles={styles}>
           <Link to="/about"> About </Link>
           <Link to="/codes"> Portfolio </Link>
           <Link to="/writes"> Writing </Link>

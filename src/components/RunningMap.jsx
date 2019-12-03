@@ -38,6 +38,9 @@ class RunningMap extends Component {
       "CT": {
         fill: "lightpink"
       },
+      "DC": {
+        fill: "lightpink"
+      },
       "FL": {
         fill: "lightpink"
       },
@@ -129,6 +132,9 @@ class RunningMap extends Component {
         fill: "lightpink"
       },
       "CT": {
+        fill: "lightpink"
+      },
+      "DC": {
         fill: "lightpink"
       },
       "DE": {
