@@ -48,14 +48,27 @@ const styles = {
 }
 
 export default class Burger extends Component {
+  constructor() {
+    super();
+    this.state = {
+      menuOpen: true
+    }
+  }
+  
+  handleMenuClick = () => { 
+    this.setState({
+      menuOpen: false
+    })
+  }
+
   render() {
     return (
       <div className="nav-mobile">
-        <Menu isOpen={false} width={`100%`} styles={styles}>
-          <Link to="/about"> About </Link>
-          <Link to="/codes"> Portfolio </Link>
-          <Link to="/writes"> Writing </Link>
-          <Link to="/runs"> Running </Link>
+        <Menu isOpen={this.state.menuOpen} width={`100%`} styles={styles} right>
+          <Link onClick={this.handleMenuClick} to="/about"> About </Link>
+          <Link onClick={this.handleMenuClick} to="/codes"> Portfolio </Link>
+          <Link onClick={this.handleMenuClick} to="/writes"> Writing </Link>
+          <Link onClick={this.handleMenuClick} to="/runs"> Running </Link>
         </Menu>
       </div>
     )
