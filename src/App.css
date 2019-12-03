@@ -123,6 +123,11 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
+/* individual portfolio page */
+.code-entry-imgs img{
+max-width: 100%;
+margin: 1em auto;
+}
 
 /* contact */
 .contact-social {

@@ -78,9 +78,6 @@ class RunningMap extends Component {
       "NH": {
         fill: "lightpink"
       },
-      "NJ": {
-        fill: "lightpink"
-      },
       "NY": {
         fill: "lightpink"
       },

@@ -8,8 +8,13 @@
       "medium": [
         "JavaScript"
       ],
+      "imgs": [
+        "https://i.imgur.com/v6IBQjp.png"
+      ],
       "tagline": "Tool to checkout the opposite point on earth with given location. Powered by MapBox API.",
-      "content": "I'm obsessed with a scene from Paul Aster's book. He was counting down to the end. "
+      "link": "http://sherunsfreely.com/antipodes/",
+      "code": "https://github.com/fallwall/antipodes-visualizer",
+      "content": "TBC. "
     },
     {
       "id": 2,
@@ -21,7 +26,7 @@
         "MongoDB"
       ],
       "tagline": "Aiding your lunch decisin making with users' location, category and price range input. Powered by YELP API.",
-      "content": "What I did in junior high sceince class was hiding behind my friends and reading books after books in hope that each book will make me smarter somehow."
+      "content": "TBC."
     },
     {
       "id": 3,
@@ -44,7 +49,7 @@
         "ExpressJS"
       ],
       "tagline": "Music Video search with bonus tracks. Powered by Vimeo API.",
-      "content": "What I did in junior high sceince class was hiding behind my friends and reading books after books in hope that each book will make me smarter somehow."
+      "content": "TBC. 90s baby."
     },
     {
       "id": 5,
@@ -56,7 +61,7 @@
         "Ruby On Rails"
       ],
       "tagline": "My Ukranian friend gave me a book. Instead of falling asleep on to it, I've decided to digitally bookmark it.",
-      "content": "none"
+      "content": "TBC."
     },
     {
       "id": 6,
@@ -77,8 +82,14 @@
       "medium": [
         "Drawing"
       ],
-      "tagline": "Frank Gehry's buildings that I have viisted.",
-      "content": "TBC."
+      "tagline": "All sorts of shapes I made while living my best life at IDEO NY",
+      "content": "TBC.",
+      "imgs": [
+        "https://i.imgur.com/6tr5uI1.jpg",
+        "https://i.imgur.com/O0Q2KBb.jpg",
+        "https://i.imgur.com/ym8vdlN.jpg",
+        "https://i.imgur.com/1NNCc58.jpg"
+      ]
     },
     {
       "id": 8,
@@ -100,7 +111,11 @@
         "uncategorized"
       ],
       "tagline": "For morning coffee drip at IDEO NY.",
-      "content": "TBC."
+      "content": "TBC.",
+      "imgs": [
+        "https://i.imgur.com/9LY8niW.jpg",
+        "https://i.imgur.com/jLAhCqL.jpg"
+      ]
     },
     {
       "id": 10,
@@ -119,10 +134,18 @@
       "year": "2018",
       "img": "https://i.imgur.com/3txEWwV.jpg",
       "medium": [
-        "uncategorized"
+        "uncategorized",
+        "Adobe Illustrator",
+        "C++"
       ],
       "tagline": "Themed decor for IDEO NY.",
-      "content": "Lofi mets Hifi."
+      "content": "Code help by @MechanicalHuman",
+      "imgs": [
+        "https://i.imgur.com/q5vlro9.jpg",
+        "https://i.imgur.com/ZbxT7I0.jpg",
+        "https://i.imgur.com/yHLp86p.jpg",
+        "https://i.imgur.com/tKHbtDm.jpg"
+      ]
     },
     {
       "id": 12,
