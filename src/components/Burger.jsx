@@ -51,24 +51,33 @@ export default class Burger extends Component {
   constructor() {
     super();
     this.state = {
-      menuOpen: true
+      menuOpen: false
     }
   }
   
-  handleMenuClick = () => { 
-    this.setState({
-      menuOpen: false
-    })
+  handleStateChange =(state)=> {
+    this.setState({ menuOpen: state.isOpen });
   }
+
+  closeMenu =()=> {
+    this.setState({ menuOpen: false });
+  }
+
+  toggleMenu =()=> {
+    this.setState(state => ({menuOpen: !state.menuOpen}))
+  }
+
 
   render() {
     return (
       <div className="nav-mobile">
-        <Menu isOpen={this.state.menuOpen} width={`100%`} styles={styles} right>
-          <Link onClick={this.handleMenuClick} to="/about"> About </Link>
-          <Link onClick={this.handleMenuClick} to="/codes"> Portfolio </Link>
-          <Link onClick={this.handleMenuClick} to="/writes"> Writing </Link>
-          <Link onClick={this.handleMenuClick} to="/runs"> Running </Link>
+        <Menu isOpen={this.state.menuOpen}
+          onStateChange={(state) => this.handleStateChange(state)}
+          width={`100%`} styles={styles} right>
+          <Link onClick={() => this.closeMenu()} to="/about"> About </Link>
+          <Link onClick={() => this.closeMenu()} to="/codes"> Portfolio </Link>
+          <Link onClick={() => this.closeMenu()} to="/writes"> Writing </Link>
+          <Link onClick={() => this.closeMenu()} to="/runs"> Running </Link>
         </Menu>
       </div>
     )
