@@ -11,6 +11,7 @@ import CountUp from 'react-countup';
         duration={2}
         separator=","
         suffix={props.suffix}
+        prefix={props.prefix}
         >
         </CountUp>
     </div>

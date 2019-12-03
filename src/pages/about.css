@@ -1,7 +1,7 @@
 .bio-wrapper img {
   max-width: 80%;
   margin: 10% auto 10% 10%;
-  filter: grayscale(100%) brightness(120%);
+  filter: grayscale(60%) brightness(120%);
 }
 
 .tech-stack-wrapper {
@@ -16,8 +16,8 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  width: 90%;
-  margin-left: 7%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .tech-stack {

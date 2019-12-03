@@ -106,7 +106,7 @@ a:hover {
 }
 
 .mini-portfolio-each img:hover {
-  filter: blur(1.5px) grayscale(90%);
+  filter: blur(1.5px) grayscale(90%) brightness(120%);
 }
 
 .mini-portfolio-text-hidden {
@@ -149,6 +149,9 @@ a:hover {
 @media screen and (max-width: 640px) {
   .nav {
     height: 6em;
+  }
+  .nav-home {
+    line-height: 6em;
   }
   .nav-link {
     display: none;

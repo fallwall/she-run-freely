@@ -6,27 +6,38 @@ const Running = () => {
   return (
     <>
       <div className="page-frame">
-        <div className="countdown-count-wrapper">
-          <div className="countdown-count">
-            <CountDown end={46} suffix={" Marathons"} delay={2} />
-            <CountDown end={46 * 26.2} suffix={" Miles"} delay={2} />
+        <div className="running-stats">
+          <div className="countdown-count-wrapper">
+            <div className="countdown-count count-cube">
+              <div className="countdown-count-content">
+                <CountDown end={46} suffix={" Marathons"} delay={2} />
+              </div>
+            </div>
+            <div className="countdown-count count-cube">
+              <div className="countdown-count-content">
+                <CountDown end={75} suffix={" Half Marathons"} delay={4} />
+              </div>
+            </div>
           </div>
-          <div className="countdown-count">
-            <CountDown end={75} suffix={" Half Marathons"} delay={4} />
-            <CountDown end={46 * 13.1} suffix={" Miles"} delay={4} />
-          </div>
-        </div>
-        <div className="countdown-pb-wrapper">
-          <div className="countdown-pb">
-            <p>Marathon</p>
-            <CountDown end={3} suffix={":"} delay={2} />
-            <CountDown end={15} suffix={":"} delay={2} />
-            <CountDown end={37} suffix={""} delay={2} />
-          </div>
-          <div className="countdown-pb">
-            <p>Mile</p>
-            <CountDown end={5} suffix={":"} delay={4} />
-            <CountDown end={30} suffix={""} delay={4} />
+          <div className="countdown-pb-wrapper">
+            <div className="countdown-pb count-cube">
+   
+              <div className="countdown-pb-content">
+
+                <CountDown end={3} prefix="Marathon Best " suffix={":"} delay={4} />
+                <CountDown end={15} suffix={":"} delay={4} />
+                <CountDown end={37} suffix={""} delay={4} />
+              </div>
+            </div>
+            <div className="countdown-pb count-cube">
+
+              <div className="countdown-pb-content">
+
+                <CountDown end={0} prefix="Mile Best " suffix={":"} delay={2} />
+                <CountDown end={5} suffix={":"} delay={2} />
+                <CountDown end={30} suffix={""} delay={2} />
+              </div>
+            </div>
           </div>
         </div>
       </div>

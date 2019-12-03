@@ -1,13 +1,30 @@
 .running-stats {
-
+ display:flex;
+ flex-direction: column;
 }
 
 .countdown-pb-wrapper, .countdown-count-wrapper {
   display: flex;
   flex-direction: row;
-  background-color: lightblue;
+  /* justify-content: space-between; */
 }
 
-.countdown-pb, .countdown-count {
-  width: 50%;
+.count-cube {
+  width: 100%;
+}
+
+.countdown-pb {
+  display: flex;
+  flex-direction: column;
+}
+.countdown-pb-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.countdown-count-content {
+  display: flex;
+  justify-content: center;
 }
