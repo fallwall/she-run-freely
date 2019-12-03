@@ -16,7 +16,6 @@ export default class App extends Component {
     return (
       <div>
         <Nav />
-        <p>portfolio V2</p>
         <Route exact path="/" render={()=><Home />}/>
         <Route exact path="/about" render={()=><About />}/>
         <Route exact path="/codes" render={()=><Portfolio />}/>

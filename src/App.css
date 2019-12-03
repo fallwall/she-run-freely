@@ -62,7 +62,7 @@ a:hover {
 }
 
 .nav-link, .nav-home {
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .nav-link a {
@@ -152,6 +152,9 @@ margin: 1em 15%;
 }
 
 @media screen and (max-width: 640px) {
+  .page-frame {
+    width: 100%;
+  }
   .nav {
     height: 6em;
   }
