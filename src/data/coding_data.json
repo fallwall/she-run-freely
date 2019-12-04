@@ -135,7 +135,6 @@
       "img": "https://i.imgur.com/3txEWwV.jpg",
       "medium": [
         "Adobe Illustrator",
-        "Laser Engraving",
         "C++"
       ],
       "tagline": "Themed decor for IDEO NY.",
@@ -174,10 +173,25 @@
         "https://i.imgur.com/gxdiITy.jpg",
         "https://i.imgur.com/A5FAFCk.jpg",
         "https://i.imgur.com/J1Z9KCN.jpg"
-  
       ],
       "tagline": "Prom themed poster and decor",
       "content": "High School Themed decor."
+    },
+    {
+      "id": 14,
+      "title": "White Elephant",
+      "year": "2019",
+      "img": "https://i.imgur.com/jIbEnul.jpg",
+      "medium": [
+        "Adobe Illustrator"
+      ],
+      "imgs": [
+        "https://i.imgur.com/IWlfuVx.jpg",
+        "https://i.imgur.com/PtKouEs.jpg",
+        "https://i.imgur.com/Hkv3y8P.jpg"
+      ],
+      "tagline": "Themed gift exchange props.",
+      "content": "Themed gift exchange prop."
     }
   ]
 }
