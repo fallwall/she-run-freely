@@ -31,6 +31,7 @@ export default class PortfolioReg extends Component {
         <div class='row'>
           <PortfolioRegList
             entries={this.state.entries}
+            entry={this.state.entry}
             select={this.selectEntry}
           />
           <PortfolioRegFrame

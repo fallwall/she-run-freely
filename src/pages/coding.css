@@ -70,15 +70,37 @@
 }
 
 .portfolio-reg-list {
-  height: 100vh;
-  border: red 2px solid;
+  height: 100%;
+
 }
 
 .portfolio-reg-frame {
-  border: green 2px solid;
+  border-left: 1px dotted lightgrey;
+  margin-left: 2em;
 }
 
 .portfolio-reg-frame img {
   width: 70%;
   margin-left: 15%;
+}
+.portfolio-reg-list-each {
+  min-height: 3em;
+  padding: 2px;
+  margin: 0;
+  border-left: 2px solid darkgrey;
+}
+
+.portfolio-reg-list-each:hover {
+  border-left: 4px solid black;
+}
+
+.portfolio-reg-list-each-active {
+  border-left: 2px solid black;
+}
+
+.portfolio-reg-list-each h3 {
+  font-size: 1em;
+}
+.portfolio-reg-list-each span {
+  color: lightgrey;
 }
