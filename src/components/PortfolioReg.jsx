@@ -32,7 +32,9 @@ export default class PortfolioReg extends Component {
           entries={this.state.entries}
           select={this.selectEntry}
         />
-        <PortfolioRegFrame />
+        <PortfolioRegFrame
+          entry={this.state.entry}
+        />
       </div>
     )
   }
