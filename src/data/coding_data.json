@@ -88,6 +88,7 @@
         "https://i.imgur.com/6tr5uI1.jpg",
         "https://i.imgur.com/O0Q2KBb.jpg",
         "https://i.imgur.com/ym8vdlN.jpg",
+        "https://i.imgur.com/yeiDgFw.jpg",
         "https://i.imgur.com/1NNCc58.jpg"
       ]
     },
@@ -135,7 +136,8 @@
       "img": "https://i.imgur.com/3txEWwV.jpg",
       "medium": [
         "Adobe Illustrator",
-        "C++"
+        "C++",
+        "Arduino"
       ],
       "tagline": "Themed decor for IDEO NY.",
       "content": "Code help by @MechanicalHuman",
@@ -163,7 +165,8 @@
       "year": "2019",
       "img": "https://i.imgur.com/HYLy13Q.jpg",
       "medium": [
-        "Adobe Illustrator"
+        "Adobe Illustrator",
+        "Drawing"
       ],
       "imgs": [
         "https://i.imgur.com/SfD3YEc.jpg",
