@@ -177,7 +177,10 @@ margin: 1em 15%;
     height: 100%;
   }
   .running-map-area-map {
-    margin-top: -7em;
+    margin-top: -3em;
   }
-
+  .running-map-area-text {
+    margin-top: 4%;
+    margin-bottom: -5em;
+  }
 }

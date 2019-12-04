@@ -37,7 +37,10 @@
 .running-map {
 width: 100%;
  text-align: center;
- margin: 2% auto;
+ margin: 5% auto 2% auto;
+}
+.running-map-area-text {
+  margin-top: 3%;
 }
 
 path {
