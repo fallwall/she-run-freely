@@ -249,22 +249,26 @@ class RunningMap extends Component {
         </div>
         {this.state.isFull &&
           (<div className="running-map-area">
-            <div><h1>Full Marathon States</h1></div>
-            <USAMap
+          <div><h1>Full Marathon States</h1></div>
+          <div className="running-map-area-map">
+          <USAMap
               customize={this.statesCustomConfigFull()}
               onClick={this.mapHandler}
               width={`100%`}
             />
+          </div>
           </div>)
         }
         {!this.state.isFull &&
           (<div className="running-map-area">
-            <div><h1>Half Marathon States</h1></div>
-            <USAMap
+          <div><h1>Half Marathon States</h1></div>
+          <div className="running-map-area-map">
+          <USAMap
               customize={this.statesCustomConfigHalf()}
               onClick={this.mapHandler}
               width={`100%`}
             />
+          </div>
           </div>)
         }
       </div>

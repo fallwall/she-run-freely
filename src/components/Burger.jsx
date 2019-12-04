@@ -54,17 +54,17 @@ export default class Burger extends Component {
       menuOpen: false
     }
   }
-  
-  handleStateChange =(state)=> {
+
+  handleStateChange = (state) => {
     this.setState({ menuOpen: state.isOpen });
   }
 
-  closeMenu =()=> {
+  closeMenu = () => {
     this.setState({ menuOpen: false });
   }
 
-  toggleMenu =()=> {
-    this.setState(state => ({menuOpen: !state.menuOpen}))
+  toggleMenu = () => {
+    this.setState(state => ({ menuOpen: !state.menuOpen }))
   }
 
 
@@ -74,6 +74,7 @@ export default class Burger extends Component {
         <Menu isOpen={this.state.menuOpen}
           onStateChange={(state) => this.handleStateChange(state)}
           width={`100%`} styles={styles} right>
+          <Link onClick={() => this.closeMenu()} to="/"> Home </Link>
           <Link onClick={() => this.closeMenu()} to="/about"> About </Link>
           <Link onClick={() => this.closeMenu()} to="/codes"> Portfolio </Link>
           <Link onClick={() => this.closeMenu()} to="/writes"> Writing </Link>

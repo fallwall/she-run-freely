@@ -7,7 +7,7 @@ export default function Nav() {
     <>
     <div className="nav">
       <div className="nav-home">
-        <Link to="/">Tibby Xu</Link>
+        <a href="http://www.sherunsfreely.com" alt="homepage">Tibby Xu</a>
       </div>
       <div className="nav-link">
         <Link to="/about"> About </Link>

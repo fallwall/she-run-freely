@@ -176,4 +176,8 @@ margin: 1em 15%;
   .tech-stack-wrapper {
     height: 100%;
   }
+  .running-map-area-map {
+    margin-top: -7em;
+  }
+
 }
