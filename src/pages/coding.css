@@ -90,17 +90,27 @@
   border-left: 2px solid darkgrey;
 }
 
-.portfolio-reg-list-each:hover {
-  border-left: 4px solid black;
-}
-
 .portfolio-reg-list-each-active {
   border-left: 2px solid black;
+  min-height: 5em;
+  padding: 3px;
+}
+
+.portfolio-reg-list-each, .portfolio-reg-list-each-active {
+-webkit-transition: 0.3s ease-in-out;
+-moz-transition: 0.3s ease-in-out;
+-o-transition: 0.3s ease-in-out;
+transition: 0.3s ease-in-out;
+}
+
+.portfolio-reg-list-each:hover, .portfolio-reg-list-each-active:hover {
+  border-left: 4px solid black;
 }
 
 .portfolio-reg-list-each h3 {
   font-size: 1em;
 }
+
 .portfolio-reg-list-each span {
   color: lightgrey;
 }
