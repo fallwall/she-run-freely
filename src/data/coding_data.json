@@ -120,14 +120,18 @@
     },
     {
       "id": 10,
-      "title": "Loaf Day",
+      "title": "Loaf Day 2.0",
       "year": "2018",
       "img": "https://i.imgur.com/1dKAooq.jpg",
       "medium": [
         "uncategorized"
       ],
-      "tagline": "The waterfall project from Canada, Australia, Argentina. #EveryTearDropEveryWaterfall",
-      "content": "The waterfall project from Canada, Australia, Argentina."
+      "imgs": [
+        "https://i.imgur.com/3UKvWN6.jpg",
+        "https://i.imgur.com/cAUXmLv.jpg"
+      ],
+      "tagline": "Remake Loaf Day.",
+      "content": "Hand-picked favourites from best bakeries in New York. Personal favourites are long-fermented rye-based, earthy, bricklike dark loaf."
     },
     {
       "id": 11,
