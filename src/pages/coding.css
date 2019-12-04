@@ -60,7 +60,6 @@
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  /* min-width: 600px; */
 }
 
 .column2 {
@@ -81,4 +80,5 @@
 
 .portfolio-reg-frame img {
   width: 70%;
+  margin-left: 15%;
 }

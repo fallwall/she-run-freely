@@ -14,7 +14,8 @@ export default class PortfolioReg extends Component {
 
   componentDidMount = () => {
     this.setState({
-      entries: data.entries
+      entries: data.entries,
+      entry: data.entries.filter(i => i.id === 14)
     })
   }
 
