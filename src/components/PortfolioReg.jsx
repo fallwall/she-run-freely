@@ -27,14 +27,15 @@ export default class PortfolioReg extends Component {
   render() {
     return (
       <div className="code-wrapper-full">
-        <p>reg</p>
-        <PortfolioRegList
-          entries={this.state.entries}
-          select={this.selectEntry}
-        />
-        <PortfolioRegFrame
-          entry={this.state.entry}
-        />
+        <div class='row'>
+          <PortfolioRegList
+            entries={this.state.entries}
+            select={this.selectEntry}
+          />
+          <PortfolioRegFrame
+            entry={this.state.entry}
+          />
+        </div>
       </div>
     )
   }

@@ -40,3 +40,45 @@
   -ms-transform: rotate(30deg);
   transform: rotate(30deg);
 }
+
+/* portfolio full view */
+
+.code-wrapper-full {
+  display: flex;
+  flex-direction: row;
+  margin: 15px; 
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  /* min-width: 600px; */
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 5;
+}
+
+.portfolio-reg-list {
+  height: 100vh;
+  border: red 2px solid;
+}
+
+.portfolio-reg-frame {
+  border: green 2px solid;
+}
+
+.portfolio-reg-frame img {
+  width: 70%;
+}
