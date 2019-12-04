@@ -136,6 +136,13 @@ margin: 1em 15%;
   margin: 0 2em;
 }
 
+.code-wrapper {
+  display:none;
+}
+.code-wrapper-full {
+  display:block;
+}
+
 @media screen and (max-width: 1260px) {
   .mini-portfolio-grid {
     display: grid;
@@ -143,9 +150,21 @@ margin: 1em 15%;
     grid-template-rows: repeat(6, auto);
     grid-gap: 5px;
   }
+  .code-wrapper {
+    display:none;
+  }
+  .code-wrapper-full {
+    display:block;
+  }
 }
 
 @media screen and (max-width: 640px) {
+  .code-wrapper-full {
+    display:none;
+  }
+  .code-wrapper {
+    display:block;
+  }
   .page-frame {
     width: 100%;
   }
