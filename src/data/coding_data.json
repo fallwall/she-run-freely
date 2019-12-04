@@ -134,8 +134,8 @@
       "year": "2018",
       "img": "https://i.imgur.com/3txEWwV.jpg",
       "medium": [
-        "uncategorized",
         "Adobe Illustrator",
+        "Laser Engraving",
         "C++"
       ],
       "tagline": "Themed decor for IDEO NY.",
@@ -157,6 +157,27 @@
       ],
       "tagline": "The waterfall project from Canada, Australia, Argentina. #EveryTearDropEveryWaterfall",
       "content": "The waterfall project from Canada, Australia, Argentina."
+    },
+    {
+      "id": 13,
+      "title": "Prom Posters",
+      "year": "2019",
+      "img": "https://i.imgur.com/HYLy13Q.jpg",
+      "medium": [
+        "Adobe Illustrator"
+      ],
+      "imgs": [
+        "https://i.imgur.com/SfD3YEc.jpg",
+        "https://i.imgur.com/VxGjoD0.jpg",
+        "https://i.imgur.com/6nwnNcp.jpg",
+        "https://i.imgur.com/y3kwfGa.jpg",
+        "https://i.imgur.com/gxdiITy.jpg",
+        "https://i.imgur.com/A5FAFCk.jpg",
+        "https://i.imgur.com/J1Z9KCN.jpg"
+  
+      ],
+      "tagline": "Prom themed poster and decor",
+      "content": "High School Themed decor."
     }
   ]
 }
