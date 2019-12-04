@@ -6,7 +6,7 @@ const PortfolioOne = (props) => {
   const entry = data.entries.filter(i => i.id === parseInt(props.id))[0];
   return (
     <div className="page-frame">
-      <div className="code-wrapper">
+      <div className="code-wrapper-one">
         <CodeEntryOne
           title={entry.title}
           content={entry.content}
