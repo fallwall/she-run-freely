@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.code-entry-nav {
+  margin-left: 65%;
+}
+
 .medium-stack {
   display:inline-block;
   margin: 10px;
