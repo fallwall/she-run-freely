@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function PortfolioRegFrame(props) {
+const PortfolioRegFrame = (props) => {
   console.log(props.entry);
   return (
     <div className='column2'>
@@ -13,3 +13,5 @@ export default function PortfolioRegFrame(props) {
     </div>
   )
 }
+
+export default PortfolioRegFrame;

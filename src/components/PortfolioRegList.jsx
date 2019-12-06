@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function PortfolioRegList(props) {
+const PortfolioRegList=(props)=> {
   return (
     <div className='column'>
       <div className="portfolio-reg-list">
@@ -17,3 +17,5 @@ export default function PortfolioRegList(props) {
     </div>
   )
 }
+
+export default PortfolioRegList;

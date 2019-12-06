@@ -13,3 +13,7 @@
 .writing-entry-title:hover {
   color:lightpink;
 }
+
+.writing-reg-frame p span {
+  color: darkgray;
+}
