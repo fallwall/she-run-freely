@@ -83,6 +83,10 @@
   margin-left: 2em;
 }
 
+.portfolio-reg-frame p span {
+  color: darkgray;
+}
+
 .portfolio-reg-frame img {
   width: 70%;
   margin-left: 15%;

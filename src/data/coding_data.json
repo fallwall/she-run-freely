@@ -13,8 +13,9 @@
       ],
       "tagline": "Tool to checkout the opposite point on earth with given location. Powered by MapBox API.",
       "link": "http://sherunsfreely.com/antipodes/",
+      "github": "http://sherunsfreely.com/antipodes/",
       "code": "https://github.com/fallwall/antipodes-visualizer",
-      "content": "TBC. "
+      "content": "Forward and Reverse Geocoding with MapBox."
     },
     {
       "id": 2,

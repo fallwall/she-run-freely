@@ -67,7 +67,6 @@ export default class Burger extends Component {
     this.setState(state => ({ menuOpen: !state.menuOpen }))
   }
 
-
   render() {
     return (
       <div className="nav-mobile">
