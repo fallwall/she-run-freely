@@ -26,8 +26,8 @@
         "ReactNative",
         "MongoDB"
       ],
-      "tagline": "Aiding your lunch decisin making with users' location, category and price range input. Powered by YELP API.",
-      "content": "TBC."
+      "tagline": "Lunch choice aid.",
+      "content": "Eatery recommendation based on user inputs of location, prince range, prefered genre, and/or key words."
     },
     {
       "id": 3,
