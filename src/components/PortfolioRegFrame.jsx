@@ -7,7 +7,7 @@ const PortfolioRegFrame = (props) => {
       <div className="portfolio-reg-frame">
         {props.entry && <h1 className="code-entry-title">{props.entry[0].title}</h1>}
         {props.entry && <p><span>{props.entry[0].tagline}</span></p>}
-        {props.entry &&
+        {props.entry && props.entry[0].github &&
           (<div class="ui buttons">
             <a href={props.entry[0].link}><button class="ui button">GitHub</button></a>
             <div class="or"></div>
